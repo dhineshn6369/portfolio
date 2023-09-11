@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Port<span>folio</span></h1>
+                <ul id="sidemenu">
+                   
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#portfolio">My Work</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p>Hello</p>
+               <h1>I'am Dhinesh<span>Kumar</span></h1>
+               <h2>Web Developer</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-----------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/vector-man-png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p> To work for an Organization which provides me tha
+                        opportunity to improve my skills knowledge to along width
+                        Organization Object.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('project')">MyProject's</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Html 5</li>
+                            <li>Css 3</li>
+                            <li>Javascript & Es6</li>
+                            <li>React Js</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Bsc(HMCS) Jairams arts & science college,karur.</li>
+                            <li><span>2018</span><br>HSE Goverment Higher Secondary school,K.Ramanathapuram,Dindigul.</li>
+                            <li><span>2016</span><br>SSLC Goverment Higher Secondary school,K.Ramanathapuram,Dindigul.</li>
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li>Food Recipe - app</li>
+                            <li>Netflix Clone - app</li>
+                            <li>ToDo List - app</li>
+                            <li>Weather - app</li>
+                            <li>Digitel Clock - app</li>
+                            <li>My Portfolio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-------Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Food Reacipe-App</h3>
+                        <p>Click</p>
+                        <a href="https://dhineshn6369.github.io/food-recipe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Netflix Clone-App</h3>
+                        <p>Click</p>
+                        <a href=" https://dhineshn6369.github.io/netflix/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Weather-App</h3>
+                        <p>Click</p>
+                        <a href=" https://dhineshn6369.github.io/weather-app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Digitel Clock</h3>
+                        <p>Click</p>
+                        <a href="https://dhineshn6369.github.io/digitel-clock/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>ToDO-App</h3>
+                        <p>Click</p>
+                        <a href=" https://dhineshn6369.github.io/todo-app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------Contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  dhineshn6369@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  6369912686</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/dhineshn6369"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://twitter.com/kumar_dhin24291?t=_sR0womaztGVDqUA-LlJeA&s=09"> <i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/dhinesh6369/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    
+                    <form action="https://sheetdb.io/api/v1/m0i7d9d97tynh" method="post" id="sheetdb.form">
+                        <input type="text" name="data[name]" placeholder="Your Name"  id="name" required>
+                        <input type="email" name="data[email]" placeholder="Your Email" id="email" required>
+                        <textarea name="data[message]"  rows="6" placeholder="Your Messge" id="message" required></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p></i> Copyright.made width <i class="fa-solid fa-copyright"></i> by @dhineshkumar.</p>
+    </div>
+    <script src="script.js"></script>
+    
+         
+    
+</body>
+</html>
